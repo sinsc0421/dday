@@ -1,5 +1,106 @@
+<style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #6f9070;
+  display: flex;
+  font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+}
+#headline{
+    font-weight: bold;
+    color: #fff;
+}
+.container {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.message {
+  font-size: 4rem;
+}
+
+#content {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji {
+  padding: 0 .25rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  li {
+    font-size: 1.125rem;
+    padding: .75rem;
+  }
+  
+  li span {
+    font-size: 3.375rem;
+  }
+}
+
+</style>
 <div class="container">
-    <h1 id="headline">Countdown to my birthday:</h1>
+    <h1 id="headline">Countdown to my holiday:</h1>
     <div id="countdown">
       <ul>
         <li><span id="days"></span>days</li>
